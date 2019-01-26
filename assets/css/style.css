@@ -1,0 +1,210 @@
+* {
+   box-sizing: border-box;
+
+}
+
+body {
+    background: url('../images/connectwork.png') repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777777;
+
+}
+
+element.style{
+    padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(34, 30, 59);
+    font-weight: bold;
+
+}
+
+header { 
+    background: grey;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+    
+}
+
+header h1 {
+    background: rgb(34, 30, 59);
+    color: white;
+    display: inLine-block;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 25px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inLine;
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-right: 2px solid rgb(34, 30, 59);
+    text-decoration: none;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.inLine-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 2px solid #777777
+
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    margin-bottom: 130px;
+
+}
+
+#l-column {
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+    width: 935px;
+    float: left;
+}
+
+#l-column h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+
+
+}
+
+footer {
+    border-top: 2px solid white;
+    background: grey;
+    color: rgb(34, 30, 59);
+    text-align: center;
+    padding: 40px;
+    margin-top: 500px;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+
+form label {
+    width: 100%;
+    display: block;
+
+}
+
+form input{
+    width: 100%;
+    visibility: block;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 4px;
+    font-size: 16px;
+    margin: 5px 0, 20px, 0;
+
+}
+
+textarea {
+    height: 300px;
+    width: 880px;
+
+}
+
+form button {
+    background: rgb(34, 30, 59);
+    color: white;
+    padding: 10px, 20px;
+    font-size: 18px;
+
+
+}
+
+.portfolio-item {
+    position: relative;
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    padding: 124px 0 15px 0;
+    height: 250px;
+
+
+}
+
+.portfolio-item h4 {
+    background: rgb(34, 30, 59);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+
+
+}
+
+#port_1 {
+    background: url('../images/port_1.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+#port_2 {
+    background: url('../images/port_2.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+#port_3 {
+    background: url('../images/port_3.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+#port_4 {
+    background: url('../images/port_4.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+#port_5 {
+    background: url('../images/port_5.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+}

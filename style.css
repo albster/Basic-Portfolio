@@ -34,12 +34,25 @@ header h1 {
 
 }
 
+footer {
+    border-top: 2px solid white;
+    background: grey;
+    color: rgb(34, 30, 59);
+    text-align: center;
+    padding: 40px;
+    margin-top: 15px;
+    position: bottom;
+
+}
+
+
 nav {
     width: 300px;
     float: right;
     margin-top: 25px;
     text-align: center;
 }
+
 
 nav ul li {
     display: inLine;
@@ -103,12 +116,3 @@ p {
     float: left;
 }
 
-footer {
-    border-top: 2px solid white;
-    background: grey;
-    color: rgb(34, 30, 59);
-    text-align: center;
-    padding: 40px;
-    margin-top: 155px;
-
-}
